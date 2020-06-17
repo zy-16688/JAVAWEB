@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ajax&amp;Json/Ajax&amp;Json.iml" filepath="$PROJECT_DIR$/Ajax&amp;Json/Ajax&amp;Json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/case/case.iml" filepath="$PROJECT_DIR$/case/case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/case1/case1.iml" filepath="$PROJECT_DIR$/case1/case1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/el&amp;jst/el&amp;jst.iml" filepath="$PROJECT_DIR$/el&amp;jst/el&amp;jst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filer&amp;listener/filer&amp;listener.iml" filepath="$PROJECT_DIR$/filer&amp;listener/filer&amp;listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet_cookie/servlet_cookie.iml" filepath="$PROJECT_DIR$/servlet_cookie/servlet_cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet_cookie&amp;session/servlet_cookie&amp;session.iml" filepath="$PROJECT_DIR$/servlet_cookie&amp;session/servlet_cookie&amp;session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet_response/servlet_response.iml" filepath="$PROJECT_DIR$/servlet_response/servlet_response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet_test/servlet_test.iml" filepath="$PROJECT_DIR$/servlet_test/servlet_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet_test1/servlet_test1.iml" filepath="$PROJECT_DIR$/servlet_test1/servlet_test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet_test2/servlet_test2.iml" filepath="$PROJECT_DIR$/servlet_test2/servlet_test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet_test3/servlet_test3.iml" filepath="$PROJECT_DIR$/servlet_test3/servlet_test3.iml" />
+    </modules>
+  </component>
+</project>

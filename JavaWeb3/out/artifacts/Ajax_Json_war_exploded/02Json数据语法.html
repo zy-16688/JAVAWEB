@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //1.定义基本格式
+    var person = {"name":"张三","age":23,"gender":true};
+    //获取Json对象中的值   Json对象.键名   Json对象["键名"]
+    var name = person.name;
+    alert(name);
+    var name1 = person["name"];
+    alert(name1);
+    alert(person);
+    //2.嵌套格式 {"键":[对象]}   []->{}
+    var persons = {
+        "persons":[
+            {"name":"李四","age":24,"gender":true},
+            {"name":"张三","age":26,"gender":true},
+            {"name":"王五","age":28,"gender":true}
+        ]
+    }
+    alert(persons.persons[0].name);
+    alert(persons);
+    //嵌套格式  []->{}
+    var ps = [
+        {"name":"张三","age":16,"gender":true},
+        {"name":"李四","age":18,"gender":true}
+    ]
+    //获取值
+    alert(ps[0].name)
+</script>
+</body>
+
+</html>

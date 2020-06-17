@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(function() {
+            //获取异步请求
+            $.get("provinceServlet",{},function(data){
+                //获取select
+                var province = $("#province");
+                //遍历data中所有数据
+                $(data).each(function() {
+                    var option = "<option name='"+this.id+"'>"+this.name+"</option>";
+                    //调用select的append追加option
+                    province.append(option);
+                })
+            })
+
+
+        })
+    </script>
+</head>
+<body>
+    <select name="" id="province">
+        <option value="">--请选择省份--</option>
+    </select>
+</body>
+</html>

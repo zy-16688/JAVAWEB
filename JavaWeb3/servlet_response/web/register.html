@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.addEventListener("load", function () {
+            var img = document.querySelector("#checkimg");
+            img.addEventListener("click",function(){
+                //生成时间戳保证图片每次出现都不一样
+                var date = +new Date();
+                //当点击了图片之后就进行图片的切换
+                img.src="/test/checkcodeDemo?"+date;
+            })
+            var a = document.querySelector("#change");
+            a.addEventListener("click",function(){
+                var date = +new Date();
+                img.src = "/test/checkcodeDemo?"+date;
+            })
+        });
+    </script>
+</head>
+<body>
+<!--    获取动态生成的验证码并显示出来-->
+<img id="checkimg" src="/test/checkcodeDemo" alt="">
+<a id="change" href="">看不清换一张</a>
+</body>
+</html>

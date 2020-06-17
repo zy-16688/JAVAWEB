@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var person = {"name":"张三","age":26,"gender":true};
+    //for in 循环
+    for(key in person){
+        alert(key+":"+person[key]);
+        alert(key+":"+person.key);
+    }
+    var persons = {"persons":[
+            {"name":"张三","age":16,"gender":true},
+            {"name":"李四","age":18,"gender":true}
+        ]}
+    var ps = [
+        {"name":"张三","age":16,"gender":true},
+        {"name":"张三","age":18,"gender":true}
+        ]
+    //获取ps中的所有值
+    for(var i=0;i<ps.length;i++){
+        var p = ps[i];
+        for(var key in p){
+            alert(key+":"+p[key]);
+        }
+    }
+
+</script>
+</body>
+</html>
